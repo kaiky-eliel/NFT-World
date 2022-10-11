@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>NFT WORLD</title>
+  </head>
+  <body onscroll="onScroll()">
+    <nav id="navigation" class="scroll">
+      <div class="wrapperr">
+        <a class="logo" href="#">
+          <img src="./assets/LOGO.svg" alt="" />
+        </a>
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#home">Inicio</a></li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a href="#">Sobre</a></li>
+          </ul>
+          <a target="_blank" href="https://opensea.io/category/collectibles">
+            <button class="button">Adiquira sua NFT</button>
+          </a>
+        </div>
+        <button onclick="openMenu()" class="open-menu">
+          <img src="./assets/ICON.svg" alt="" />
+        </button>
+        <button onclick="closeMenu()" class="close-menu">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="wrapper">
+        <h4>BEM-VINDO A NFT WORLD</h4>
+        <h1>Consiga comprar ou vender suas NFT de um modo simplificado</h1>
+        <p>
+          Um NFT, é uma unidade de conta que cria uma impressão digital de
+          qualquer item exclusivo. Entre eles podem estar: pinturas,
+          fotografias, vídeos, músicas, gifs.
+        </p>
+        <div id="botom">
+          <a target="_blank" href="https://opensea.io/category/collectibles">
+            <button class="button">Adiquira sua NFT</button>
+          </a>
+        </div>
+        <img src="assets/Meu projeto.png" alt="NFT" />
+        <div class="stats">
+          <div class="stat">
+            <h3>+ 4.500</h3>
+            <p>NFTS Vendidas</p>
+          </div>
+
+          <div class="stat">
+            <h3>+ 60%</h3>
+            <p>De Rentabilidade</p>
+          </div>
+
+          <div class="stat">
+            <h3>+ 850</h3>
+            <p>Trades do Mecado</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="services">
+      <div class="wrapper">
+        <header class="home">
+          <h4>Serviços</h4>
+          <h3>Podemos ajudá-lo a conheçer o mundo das NFT!</h3>
+        </header>
+        <div class="cards">
+          <div class="card">
+            <img class="nfts-img" src="https://img.seadn.io/files/088d57556c8bb579cb572bd0fa1e1108.png?fit=max&w=1000" alt="">
+            <h3>Bored Ape #1973</h3>
+            <p>$2.531.950,90</p>
+          </div>
+
+          <div class="card">
+            <img class="nfts-img" src="https://img.seadn.io/files/9cd29f6c135d347b320a9d2c978a962f.png?fit=max&w=1000" alt="">
+            <h3>Mutant Ape #18186</h3>
+            <p>$21.092,28</p>
+          </div>
+
+          <div class="card">
+            <img class="nfts-img" src="https://img.seadn.io/files/a9b707def11e1152f9fb9b243ef12ba1.png?fit=max&w=1000" alt="">
+            <h3>Pudgy Penguin #4718</h3>
+            <p>$4.256,81</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Scroll Reveal------------------------------------>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
